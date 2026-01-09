@@ -30,9 +30,6 @@ const Hero = () => {
               <p>Cybersecurity Analyst | Software Engineer</p>
               <p>International Financier | PMP® Certified Project Manager</p>
               <p>Graphics Designer & Digital Marketer</p>
-              <p className="text-white font-semibold">
-                AI & Educational Technology Leader advancing equitable learning in Africa
-              </p>
             </div>
 
             <div className="flex space-x-4 pt-4">
