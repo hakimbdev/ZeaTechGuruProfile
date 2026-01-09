@@ -1,0 +1,73 @@
+📸 PROFILE PHOTO INSTRUCTIONS
+================================
+
+Please place your profile photo in this folder (public/) with the following specifications:
+
+FILE NAME:
+----------
+profile.jpg
+
+RECOMMENDED SPECIFICATIONS:
+---------------------------
+• Format: JPG or PNG
+• Dimensions: 800x800 pixels (minimum)
+• Aspect Ratio: Square (1:1) or Portrait
+• File Size: Under 500KB (optimized for web)
+• Quality: High resolution, professional headshot
+
+PHOTO GUIDELINES:
+-----------------
+✓ Professional business attire
+✓ Clean, simple background
+✓ Good lighting (natural light preferred)
+✓ Face clearly visible
+✓ Neutral or confident expression
+✓ High contrast for black/white theme
+
+CURRENT SETUP:
+--------------
+The website is configured to look for: /profile.jpg
+
+If you want to use a different filename or format:
+1. Place your photo in this folder
+2. Update the path in: src/components/Hero.jsx (line 67)
+   Change: src="/profile.jpg"
+   To: src="/your-photo-name.jpg"
+
+ALTERNATIVE FORMATS:
+--------------------
+• profile.png (update Hero.jsx line 67)
+• profile.webp (best for web performance)
+
+PHOTO EFFECTS:
+--------------
+The website applies these effects to your photo:
+• Grayscale filter (converts to black/white)
+• Hover effect (shows color on mouse over)
+• Border with white transparency
+• Rounded corners
+• Shadow effects
+
+TESTING:
+--------
+After adding your photo:
+1. Run: npm run dev
+2. Open: http://localhost:5173
+3. Check the Hero section for your photo
+4. Test hover effect (should show color)
+
+TROUBLESHOOTING:
+----------------
+Photo not showing?
+• Check filename is exactly "profile.jpg"
+• Ensure it's in the public/ folder
+• Clear browser cache (Ctrl+Shift+R)
+• Check browser console for errors (F12)
+
+Need help optimizing your photo?
+• Use online tools like TinyPNG.com
+• Or use image editing software to resize/compress
+
+================================
+Ready to add your photo? Just drop it in this folder! 🚀
+
